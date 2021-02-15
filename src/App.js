@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react"
+import SearchBar from "./SearchBar"
 
 function App() {
-	return <div className="app">Hello World</div>;
+  return (
+    <div className="app">
+      <SearchBar />
+    </div>
+  )
 }
 
-export default App;
+export default App
